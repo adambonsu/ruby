@@ -1,4 +1,5 @@
 FROM ruby:2.6-alpine
+MAINTAINER Adam Bonsu <adam@bonsu.io>
 COPY docker-entrypoint.sh /usr/local/bin/ 
 # Install all build dependencies
 # Add bash for debugging purposes
