@@ -36,4 +36,3 @@ docker container run -it --rm -v $(pwd):/home adambonsu/ruby:2.6 sh
 docker container run --rm -v $(pwd):/home adambonsu/ruby:2.6 ruby --version
 docker container run --rm -v $(pwd):/home adambonsu/ruby:2.6 {SPECIFY_COMMAND_HERE} 
 ```
-.
