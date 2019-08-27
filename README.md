@@ -13,7 +13,7 @@ docker login
 docker push adambonsu/ruby:2.6
 ```
 
-### Run ruby environment without local Gemfile
+### Run ruby environment without local Gemfile.
 #### Interactive
 ```
 docker container run -it --rm adambonsu/ruby:2.6
